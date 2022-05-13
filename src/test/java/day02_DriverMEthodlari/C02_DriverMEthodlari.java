@@ -12,7 +12,7 @@ public class C02_DriverMEthodlari {
 
         driver.get("https://www.facebook.com");//bu bizi oraya goturur bir alt satir da gosterir
         System.out.println("actuel title "  +driver.getTitle());//sout'a koymasak gideriz ama goremeyiz
-        Thread.sleep(3000);
+
         System.out.println("actual url "+driver.getCurrentUrl());
 
         driver.close();//isini bitirir ve kapatir

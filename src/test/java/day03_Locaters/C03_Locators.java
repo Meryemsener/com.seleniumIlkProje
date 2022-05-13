@@ -21,7 +21,7 @@ public class C03_Locators {
 3. Sayfada kac tane link oldugunu bulun.
      */
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver", "src/resources/drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "resources/drivers/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
